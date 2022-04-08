@@ -1,9 +1,9 @@
-package PegadaDeCarbono;
+package util;
 
 public class Veiculo {
-
+	
 	private int ID_veiculo;
-	private String modelo;;
+	private String modelo;
 	
 	public Veiculo(String modelo, String quilometragem, String consumo) {
 		this.modelo = modelo;
